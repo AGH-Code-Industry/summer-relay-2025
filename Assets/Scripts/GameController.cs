@@ -1,25 +1,43 @@
 using UnityEngine;
 
-public class GamecONTROLLER : MonoBehaviour
+public class GameController : MonoBehaviour
 {
     public GameObject playerObject;
+
+    public int currentTripCode;
+    public int cicketCodeLength = 4;
+    public int maxTickerIndex = 5;
+
+    public TicketStationUIController ticketStationUIController;
+    public ConductorTableController conductorTableController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
-    }
-
-    void ClampPlayerMovement()
-    {
-        float clampedX = Mathf.Clamp(playerObject.transform.position.x, -64f, 64f);
-        float clampedY = Mathf.Clamp(playerObject.transform.position.y, -1.15f, 0.29f);
-        playerObject.transform.position = new Vector3(clampedX, clampedY, playerObject.transform.position.z);
+        currentTripCode = GenerateTripCode();
+        ticketStationUIController.DisplayCode(currentTripCode);
     }
 
     // Update is called once per frame
     void Update()
     {
-        ClampPlayerMovement();
+
+    }
+
+    int GenerateTripCode()
+    {
+        int code = 0;
+
+        for (int i = 0, multi = 1; i <= cicketCodeLength; i++, multi *= 10)
+        {
+            code += Random.Range(1, maxTickerIndex + 1) * multi;
+        }
+
+        return code;
+    }
+
+    public void startTicketChecking(Ticket t)
+    {
+        conductorTableController.AddTicketToCheck(t);
     }
 }

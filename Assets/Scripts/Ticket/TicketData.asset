@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1ffd03ce01c014585e316886061cd3, type: 3}
+  m_Name: TicketData
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -6706164723994672925, guid: dd7587057231f4a4d8f1db994a297bd3, type: 3}
+  - {fileID: 6404400130548082422, guid: 72a6209ac0fb19144970b74fef7148b2, type: 3}
+  - {fileID: 357749872346554099, guid: 7e70ee64b17f1a4419e004706745a046, type: 3}
+  - {fileID: -5801782134843385865, guid: 8a82baec4c984eb46b99b68b04fad3ae, type: 3}
+  - {fileID: -4175528854009438164, guid: b14baeea3961e384fae27f60f6552296, type: 3}
