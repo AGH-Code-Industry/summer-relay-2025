@@ -1,3 +1,19 @@
+## Summer Relay 2025 - pomysły game design modyfikacje od poprzedniego
+
+Uproszczona mechanika sprawdzania biletu/dokumentów aby ztrobić grę bardziej arcade style coś jak w overcooked, gdzie mamy limtowanty czas
+na sprawdzenie całego pociągu, dostajemy punkty za poprawne sprawdzenie i tracimy za niepoprawne. Aby przejść do następnego poziomu musimy zdobyś wystarczającą ilość punktów
+- można zmienić że jak nie mamy wystarczająco punktow to nas zwalniają
+
+Gra robaczki themed, żeby jakoś weselej wakacyjnie było
+
+Random eventy typu:
+- pasażerowie uciekają przed nami i musimy ich łapać jak nie mają biletu i marnują nam czas, bo jak ich nie złapiemy to tracimy punkty na koniec
+
+
+Mechanika kasowania biletu:
+- Trzeba pociągnąć za fragmęt po prawej i on się odrywa
+- Dodawanie powodu dlaczego jest bilet niepoprawny trzeba dodać
+
 ## Summer Relay 2025 - pomysły game design
 
 Gra typu observation inspirowana papers please.

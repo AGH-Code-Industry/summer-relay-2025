@@ -171,15 +171,11 @@ public class DraggableTableObject : MonoBehaviour
         {
             _isOnTable = true;
             BroadcastMessage("OnEnterTable");
-        } else if (!isMouseOnTable && _isOnTable)
+        }
+        else if (!isMouseOnTable && _isOnTable)
         {
             _isOnTable = false;
             BroadcastMessage("OnExitTable");
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("Trig enter");
     }
 }
