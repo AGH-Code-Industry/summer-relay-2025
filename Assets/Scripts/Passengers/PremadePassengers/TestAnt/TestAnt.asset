@@ -16,4 +16,15 @@ MonoBehaviour:
   surname: "Mr\xF3wczak"
   age: 0
   passengerPrefab: {fileID: 3910686437364936937, guid: 51f435abb3854cf4e8f142d862b92c0a, type: 3}
-  ticket: {fileID: 11400000, guid: b0a9a51816ba0bc4793fc7ecd89b643a, type: 2}
+  ticket:
+    id: 0
+    from: 0
+    to: 0
+    seatNumber: 0
+    invalidityType: 0
+    shouldInvalidityTypeBeGeneratedRandomly: 0
+    tripCode: 52225
+    firstName: Antek
+    surname: "Mr\xF3wczak"
+    isValidated: 0
+    appliedInvalidReason: 0

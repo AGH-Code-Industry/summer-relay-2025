@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e06374b8b324b64ca9274fdf235296a, type: 3}
   m_Name: TestLevel
   m_EditorClassIdentifier: 
-  totalGeneratedPassengers: 0
-  generatedPasengersWithInvalidTicket: 0
+  totalTime: 15
+  totalGeneratedPassengers: 4
+  generatedPasengersWithInvalidTicket: 1
   predefinedPassengers:
   - {fileID: 11400000, guid: e3fb318ee760c68418862d243599dffa, type: 2}

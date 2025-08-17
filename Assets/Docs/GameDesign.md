@@ -13,6 +13,7 @@ Random eventy typu:
 Mechanika kasowania biletu:
 - Trzeba pociągnąć za fragmęt po prawej i on się odrywa
 - Dodawanie powodu dlaczego jest bilet niepoprawny trzeba dodać
+- Kiedy oddamy bilet pasażerwi do którego on nie należy powinien tracić punkty
 
 ## Summer Relay 2025 - pomysły game design
 
