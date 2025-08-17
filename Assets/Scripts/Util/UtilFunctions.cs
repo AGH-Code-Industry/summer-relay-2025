@@ -22,6 +22,34 @@ static class UtilFunctions
         return (number / divisor) % 10;
     }
 
+    public static int ReplaceDigitAtIndex(int number, int index, int newDigit)
+    {
+        int length = (int)Math.Floor(Math.Log10(number)) + 1;
+        int posFromRight = length - 1 - index;
+        int pow = (int)Math.Pow(10, posFromRight);
+
+        // Current digit at that position
+        int currentDigit = (number / pow) % 10;
+
+        // Remove current digit and add new one
+        number -= currentDigit * pow;
+        number += newDigit * pow;
+
+        return number;
+    }
+    public static T GetRandomEnumValue<T>()
+    {
+        Array values = Enum.GetValues(typeof(T));
+        return (T)values.GetValue(UnityEngine.Random.Range(0, values.Length));
+    }
+
+    public static T GetRandomEnumValue<T>(int startFrom)
+    {
+        Array values = Enum.GetValues(typeof(T));
+        return (T)values.GetValue(UnityEngine.Random.Range(startFrom, values.Length));
+    }
+
+
     static public bool Contains2D(UnityEngine.Bounds b, Vector2 p)
     {
         Vector3 min = b.min;

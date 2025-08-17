@@ -42,17 +42,17 @@ public class TicketController : MonoBehaviour, IObjectDropHanlder
 
     void UpdateTicket()
     {
-        _codeController.SpawnIcons(_ticket.TripCode);
+        _codeController.SpawnIcons(_ticket.tripCode);
 
         UpdateBoundingBox();
 
-        _validationStripController.gameObject.SetActive(!_ticket.IsValidated);
+        _validationStripController.gameObject.SetActive(!_ticket.isValidated);
     }
 
 
     private void UpdateBoundingBox()
     {
-        if (_ticket.IsValidated)
+        if (_ticket.isValidated)
         {
             var ticketBounds = GetComponent<BoxBounds2D>();
             var colider = GetComponent<BoxCollider2D>();
@@ -66,7 +66,7 @@ public class TicketController : MonoBehaviour, IObjectDropHanlder
 
     public void ValidateTicket()
     {
-        _ticket.IsValidated = true;
+        _ticket.isValidated = true;
         UpdateBoundingBox();
         if (!_validationStripController.IsBeeingDestroyed())
         {
