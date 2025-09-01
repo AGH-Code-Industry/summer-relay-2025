@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854ba952a7e2f9740af7b41152f11d5c, type: 3}
+  m_Name: TestAnt
+  m_EditorClassIdentifier: 
+  firstName: Antek
+  surname: "Mr\xF3wczak"
+  age: 0
+  passengerPrefab: {fileID: 3910686437364936937, guid: 51f435abb3854cf4e8f142d862b92c0a, type: 3}
+  ticket:
+    id: 0
+    from: 0
+    to: 0
+    seatNumber: 0
+    invalidityType: 0
+    shouldInvalidityTypeBeGeneratedRandomly: 0
+    tripCode: 52225
+    firstName: Antek
+    surname: "Mr\xF3wczak"
+    isValidated: 0
+    appliedInvalidReason: 0

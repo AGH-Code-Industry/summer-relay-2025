@@ -41,16 +41,16 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: background
+  - name: Background
     uniqueID: 1696241349
     locked: 0
-  - name: objects
+  - name: World
     uniqueID: 3466493959
     locked: 0
-  - name: foreground
+  - name: ConductorTable
     uniqueID: 2921089907
     locked: 0
-  - name: ui
+  - name: UI
     uniqueID: 3258696539
     locked: 0
   m_RenderingLayers:
