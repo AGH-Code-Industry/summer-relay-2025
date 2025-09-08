@@ -50,13 +50,13 @@ W ramach rozgrywki można załączyć wątki fabularne:
 
 Gra w zależności od wyników i decyzji gracza kończyła by się różnymi endingami.
 Przykładowe endingi:
--kiedy gracz będzie bardzo na minusie z kasą (ale tak mocno na minusie): pkp upada
--duze niezadowolenie pasazerow: pasażerowie zabijają konduktora (najlepiej jakieś widły i pochodnie)
--niezadowolenie nie jest az takie duze:na ostatniej stacji 	pasazerowie obrzucaja konduktora starymi kanapkami
--średni wynik: po prostu powrot do domu (sredni w sensie kasa niewiele na plusie/minusie, zadowolenie pasazerow podobnie) 
--dobry wynik + zrobiona misja z kotem: konduktor dostaje zaproszenie na wywiad do animal planet
--dobry wynik + romans z kucharką: ślub
--bardzo dobry wynik: konduktor wyjeżdża na wakacje
--zajebisty wynik: konduktor zostaje prezesem pkp
- -jesli gracz będzie przyjmować dużo łapowek: konduktora dopada urząd skarbowy
+- kiedy gracz będzie bardzo na minusie z kasą (ale tak mocno na minusie): pkp upada
+- duze niezadowolenie pasazerow: pasażerowie zabijają konduktora (najlepiej jakieś widły i pochodnie)
+- niezadowolenie nie jest az takie duze:na ostatniej stacji 	pasazerowie obrzucaja konduktora starymi kanapkami
+- średni wynik: po prostu powrot do domu (sredni w sensie kasa niewiele na plusie/minusie, zadowolenie pasazerow podobnie) 
+- dobry wynik + zrobiona misja z kotem: konduktor dostaje zaproszenie na wywiad do animal planet
+- dobry wynik + romans z kucharką: ślub
+- bardzo dobry wynik: konduktor wyjeżdża na wakacje
+- zajebisty wynik: konduktor zostaje prezesem pkp
+- jesli gracz będzie przyjmować dużo łapowek: konduktora dopada urząd skarbowy
 
