@@ -13,6 +13,7 @@ Główna rozgrywka skupia się na prostej mechanice sprawdzania dokumentów bile
 - pasażerów na gapę.
   - uciekających przed tobą
   - próbujących się podszyć pod osoby towarzyszące na czyimś bilecie
+    
 W przypadku nieprawidłowości gracz powinien mieć możliwość sprzedaży biletów oraz wystawienia mandatu. Może też wziąć łapówkę albo wyłudzić item. Jednym z obowiązków konduktora jest dbanie o to, żeby podróż dla pasażerów była komfortowa i bezpieczna. Dlatego mógłby istnieć miernik zadowolenia pasażerów. Nieznośni, niebezpieczni oraz głośni pasażerowie obniżali by poziom zadowolenia na mierniku. Miernik motywowałby gracza do interakcji z nieznośnymi pasażerami. Gracz mógłby dawać im mandaty lub ostatecznie ich wyrzucić z pociągu. Wyrzucanie ludzi działałoby na zasadzie Quick Time Event. Zadowolenie pasażerów również spadało by, podczas błędnych/niespraiedliych mandatów (np jeśli gracz da mandat osobie z biletem i dobrymi dokumentami). Pod koniec gry wynik końcowy jest sumą pieniędzy i miernika zadowolenia.
 
 Itemy mogą mieć efekty pozytywne, negatywne lub randomowe, ale nie wpłyają na wynik końcowy. Potencjalne pozytywne efekty itemow:
@@ -46,3 +47,16 @@ W ramach rozgrywki można załączyć wątki fabularne:
 - szukanie złodzieja bagażu
 - minigra ze zbiegłym kotem: gracz podchodzi do zaniepokojnego pasażera. Po dialogu gracz dostaje misje, w której musi odnaleźć kotka. Jeśli gracz posiada kocimiętkę, kot znajdzie się w tym samym wagonie co gracz. Jeśli gracz będzie wystarczająco blisko kotka mógłby odpalić się mechanizm jak w grach Escap (np osobna scena na szukanie wystającego ogona zza bagażów). 
 - krąg pasażerów rozrzuconych po wagonach którzy mają jeden bilet. Gracz musi wykombinować kto faktycznie jest na tym bilecie i złapać impostorów.
+
+Gra w zależności od wyników i decyzji gracza kończyła by się różnymi endingami.
+Przykładowe endingi:
+-kiedy gracz będzie bardzo na minusie z kasą (ale tak mocno na minusie): pkp upada
+-duze niezadowolenie pasazerow: pasażerowie zabijają konduktora (najlepiej jakieś widły i pochodnie)
+-niezadowolenie nie jest az takie duze:na ostatniej stacji 	pasazerowie obrzucaja konduktora starymi kanapkami
+-średni wynik: po prostu powrot do domu (sredni w sensie kasa niewiele na plusie/minusie, zadowolenie pasazerow podobnie) 
+-dobry wynik + zrobiona misja z kotem: konduktor dostaje zaproszenie na wywiad do animal planet
+-dobry wynik + romans z kucharką: ślub
+-bardzo dobry wynik: konduktor wyjeżdża na wakacje
+-zajebisty wynik: konduktor zostaje prezesem pkp
+ -jesli gracz będzie przyjmować dużo łapowek: konduktora dopada urząd skarbowy
+
